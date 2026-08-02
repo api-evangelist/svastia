@@ -1,7 +1,31 @@
 aid: svastia
 name: Svastia
-description: Svastia is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Svastia (Svastia Genetics Inc.) is a precision-genomics and oncology data
+  company that bundles clinical research products with cutting-edge
+  bioinformatics to accelerate precision cancer therapy. It offers DNA/RNA
+  sequencing, exome and gene-panel assays, immune (B/T-cell) repertoire
+  sequencing, cell-based drug-efficacy screening, therapeutic-antibody
+  development toolkits, and siRNA design, together with biomarker analytics
+  (Tumor Mutational Burden, Microsatellite Instability) and clinical reporting
+  based on ACMG/ASCO guidelines. Svastia serves hospitals, diagnostics labs,
+  researchers, and CROs, and runs a bespoke clinical/genetic data-collection
+  service across a hospital network, with HL7-FHIR data exchange between EHR
+  and Clinical Trial Management Systems. Products are delivered through a
+  login-gated web portal; the company does not publish a public developer API.
+  Backed by 500 Global; offices in San Francisco (USA) and Cambridge (UK).
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://svastia.ai/static/assets/img/favicon.ico
 url: https://raw.githubusercontent.com/api-evangelist/svastia/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +35,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Genomics
+- Oncology
+- Precision Medicine
+- Bioinformatics
+- Sequencing
+- Clinical Trials
+- Healthcare
+- Life Sciences
+- Cancer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +56,24 @@ maintainers:
 common:
 - type: Website
   url: https://svastia.ai
+- type: About
+  url: https://svastia.ai/about
+- type: Login
+  url: https://svastia.ai/accounts/login_home/
+- type: Support
+  url: https://svastia.ai/accounts/contact/
+- type: PrivacyPolicy
+  url: https://svastia.ai/privacypolicy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/svastia/
+- type: Conformance
+  url: conformance/svastia-conformance.yml
+- type: DomainSecurity
+  url: security/svastia-domain-security.yml
+- type: LLMsTxt
+  url: llms/svastia-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

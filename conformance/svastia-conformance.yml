@@ -1,0 +1,25 @@
+generated: '2026-07-21'
+method: searched
+source: https://svastia.ai/ (homepage clinical report + data exchange features)
+standards:
+- id: hl7-fhir
+  conforms: true
+  evidence: 'Homepage states clinical data exchange between EHR (HL7-FHIR) and Clinical
+    Trial Management Systems.'
+- id: acmg-variant-guidelines
+  conforms: true
+  evidence: 'Clinical reports state variant classification is based on ACMG/ASCO guidelines.'
+- id: oauth2
+  conforms: false
+  evidence: 'No documented OAuth2 or OpenID Connect surface; site uses session-cookie login (/accounts/login_home).'
+- id: openapi
+  conforms: false
+  evidence: 'No published OpenAPI/Swagger definition found (/openapi.json 404, /api/ returns empty {}).'
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: 'No public API error contract published.'
+notes: >-
+  Svastia is a precision-genomics / oncology data company delivering sequencing,
+  bioinformatics, and clinical reporting through a login-gated web portal, not a
+  public developer API. FHIR/ACMG conformance are product-level clinical data
+  interoperability claims, not a certified compliance program.

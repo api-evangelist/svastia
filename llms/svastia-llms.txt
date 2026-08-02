@@ -1,0 +1,38 @@
+# Svastia
+
+> Svastia (Svastia Genetics Inc.) is a precision-genomics and oncology data company that bundles clinical research products with bioinformatics to accelerate precision cancer therapy. It provides DNA/RNA sequencing, exome and gene-panel assays, immune (B/T-cell) repertoire sequencing, biomarker analytics (Tumor Mutational Burden, Microsatellite Instability), and clinical reporting for hospitals, diagnostics labs, researchers, and CROs. Delivery is through a login-gated web portal; there is no public developer API.
+
+Generated: 2026-07-21
+Method: generated (from API Evangelist catalog + svastia.ai; no provider-published llms.txt — /llms.txt returned 404)
+
+## About
+- [Homepage](https://svastia.ai/): Accelerating precision medicine — clinical research products bundled with bioinformatics.
+- [About / Team](https://svastia.ai/about): Company and team.
+- [Privacy Policy](https://svastia.ai/privacypolicy): Privacy and terms.
+- [LinkedIn](https://www.linkedin.com/company/svastia/): Company profile.
+
+## Products & Tools (web portal, login required)
+- [Sequencing & Analytics](https://svastia.ai/seqanalytics): RNASeq, exome/gene panels, B/T-cell repertoire, therapeutic-antibody sequencing.
+- [Drug Efficacy Screening](https://svastia.ai/drugscreening): Cell-based screening with genetics-aided cell-line selection.
+- [Data Collection Service](https://svastia.ai/datacollection): Clinical/genetic data collection across a hospital network under consent/ethics standards.
+- [Therapeutic Antibody Toolkit](https://svastia.ai/therantibody): Phage/display antibody development and immune-repertoire sequencing.
+- [siRNA Target Finder](https://svastia.ai/sirna): siRNA design tool and consulting.
+- [Cell Lines / Assays](https://svastia.ai/celllines/list_assays): Drug-screening assay catalogue.
+- [COVID-19 Tools](https://svastia.ai/covid19): COVID-19 research tools.
+- [Gene Expression Finder](https://svastia.ai/expression/search_taster): Gene-expression search.
+- [Genome Explorer](https://svastia.ai/sgbrowser/genoverse_index.html): Genome browser.
+- [Clinical Trial Finder](https://svastia.ai/trials/search_trials): Structured clinical-genetic clinical-trial matching.
+- [Evidence Search](https://svastia.ai/search/search_evidence): Clinical evidence search.
+
+## Product Catalogue
+- [NGS Products](https://svastia.ai/products/list_products/NGS)
+- [Kits / Reagents](https://svastia.ai/products/list_products/KIT)
+- [Enzymes / PCR](https://svastia.ai/products/list_products/ENZ)
+
+## Account
+- [Login](https://svastia.ai/accounts/login_home): Portal login.
+- [Contact](https://svastia.ai/accounts/contact): Contact form. Email info@svastia.ai.
+
+## Standards
+- Clinical data exchange via HL7-FHIR between EHR and Clinical Trial Management Systems.
+- Variant classification per ACMG/ASCO guidelines.
