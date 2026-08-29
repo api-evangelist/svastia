@@ -14,6 +14,17 @@ description: >-
   and Clinical Trial Management Systems. Products are delivered through a
   login-gated web portal; the company does not publish a public developer API.
   Backed by 500 Global; offices in San Francisco (USA) and Cambridge (UK).
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
